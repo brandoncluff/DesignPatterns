@@ -43,8 +43,7 @@ namespace DesignPatterns {
     }
 
     class SingleResponsibilityPrinciple {
-        //static void Main(string[] args) {
-        static void Test() { 
+        public static void Test(bool openFile = false) { 
             var j = new Journal();
             j.AddEntry("I cried today");
             j.AddEntry("I ate a bug");
@@ -53,7 +52,10 @@ namespace DesignPatterns {
             var p = new Persistence();
             var filename = @"c:\temp\journal.txt";
             p.SaveToFile(j, filename, true);
-            Process.Start(filename);
+
+            if (openFile) {
+                Process.Start(filename);
+            }
         }
     }
 }

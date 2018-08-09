@@ -111,7 +111,7 @@ namespace DesignPatterns {
     }
 
     class OpenClosedPrinciple {
-        static void Main(string[] args) {
+        public static void Test() {
             var apple = new Product("Apple", Color.RED, Size.SMALL);
             var tree = new Product("Tree", Color.GREEN, Size.LARGE);
             var house = new Product("House", Color.BLUE, Size.LARGE);
@@ -119,12 +119,14 @@ namespace DesignPatterns {
             Product[] products = { apple, tree, house };
 
             // INCORRECT IMPLEMENTATION
+            /*
             var pf = new ProductFilter();
             WriteLine("Green products (incorrect):");
 
             foreach (var p in pf.FilterByColor(products, Color.GREEN)) {
                 WriteLine($" - {p.Name} is green");
             }
+            */
 
             // CORRECT IMPLEMENTATION
             var bf = new BetterFilter();
