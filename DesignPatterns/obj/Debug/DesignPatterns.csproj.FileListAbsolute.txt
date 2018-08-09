@@ -5,3 +5,6 @@ C:\Users\bcluff\source\repos\DesignPatterns\DesignPatterns\bin\Debug\DesignPatte
 C:\Users\bcluff\source\repos\DesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.pdb
 C:\Users\bcluff\source\repos\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.exe
 C:\Users\bcluff\source\repos\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.pdb
+C:\Users\bcluff\source\repos\DesignPatterns\DesignPatterns\bin\Debug\System.ValueTuple.dll
+C:\Users\bcluff\source\repos\DesignPatterns\DesignPatterns\bin\Debug\System.ValueTuple.xml
+C:\Users\bcluff\source\repos\DesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.csproj.CopyComplete
